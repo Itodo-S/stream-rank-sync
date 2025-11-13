@@ -16,7 +16,7 @@ export const Footer = () => {
             <Link to="/" className="flex items-center gap-2 group">
               <Trophy className="h-8 w-8 text-primary transition-transform group-hover:scale-110 group-hover:rotate-12" />
               <span className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-                GameRank
+                StreamRankSync
               </span>
             </Link>
             <p className="text-sm text-muted-foreground">
@@ -98,7 +98,7 @@ export const Footer = () => {
         <div className="pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-muted-foreground">
-              © {currentYear} GameRank. Powered by Somnia Data Streams.
+              © {currentYear} StreamRankSync. Powered by Somnia Data Streams.
             </p>
             <div className="flex gap-6">
               <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
